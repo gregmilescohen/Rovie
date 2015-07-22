@@ -29,14 +29,23 @@
   <body>
 
     <header>
-      <a href="#home" class="logo" data-scroll>
+      <a href="#home" id="home" class="logo" data-scroll>
       	<img id="main-logo" src="img/rovie-main-logo.svg" alt="Rovi Main Logo">
       </a>
-      <nav class="nav-collapse">
+      <nav class="nav-collapse nav-collapse-0 closed" aria-hidden="false" style="-webkit-transition: max-height 284ms; transition: max-height 284ms; position: relative;">
         <ul>
-          <li class="menu-item active"><a href="#home" data-scroll>about</a></li>
-          <li class="menu-item"><a href="#about" data-scroll>features</a></li>
-          <li class="menu-item"><a href="#projects" data-scroll>contact</a></li>
+          <li class="active">
+          	<a href="#home" data-scroll>home</a>
+          </li>
+          <li class>
+          	<a href="#about" data-scroll>about</a>
+          </li>
+          <li class>
+          	<a href="#features" data-scroll>features</a>
+          </li>
+          <li class>
+          	<a href="#contact" data-scroll>contact</a>
+          </li>
         </ul>
       </nav>
 
@@ -45,19 +54,76 @@
 		<div id="header-img"></div>
 
 	<div class="container-fluid">
-    <section id="home">
+    <section id="about">
 
-      <h1>Meet your new favorite travel companion</h1>
+      <h1>Meet your new favorite travel companion.</h1>
       <h3>Keep your phone, keep your number, and see the world with unlimited data.<br>Now possible with Rovie.</h3>
-      <p></p>
+      <div id="download-icons">
+      	<img src="img/app-store.svg" alt="download on the app store">
+      	<img src="img/google-play.svg" alt="download on the google play store">
+      </div>
     </section>
 
+		<section>
+
+		  <p>With Rovie, traveling internationaly with your phone or tablet has never been easier. We have connected the world's service providers to offer fully unlimited international data to everyone. No hassling with your carrier, no changing sim cards, no useless burner phones, and absolutely no outragous international data costs. Your phone, your number, and unlimited data, all at $4.99 per day. Simply download the Rovie app on your mobile phone or tablet, and turn on Rovie's international data network. When you're back home, simply turn off the network. And that's it, you're done. Don't bother with expensive carrier international fees or cheap pay-as-you-go devices. Keep your device, keep your number, and enjoy international unlimited data all with Rovie. Download the app and start traveling smarter.</p>
+
+		</section>
+
     <section id="features">
-      <h1>About</h1>
+
+    	<!-- feature 1 -->
+      <div class="row media">
+        <div class="media-left">
+          <a href="#">
+            <img class="media-object" src="img/rovie-iphone-mockup.png" alt="Rovie On iPhone">
+          </a>
+        </div>
+        <div class="media-body">
+          <h4 class="media-heading">Media heading</h4>
+      	</div>
+      </div>
+
+    	<!-- feature 2 -->
+      <div class="row media">
+        <div class="media-left">
+          <a href="#">
+            <img class="media-object" src="img/no-sign.png" alt="Rovie On iPhone">
+          </a>
+        </div>
+        <div class="media-body">
+          <h4 class="media-heading">Media heading</h4>
+      	</div>
+      </div>
+
+			<!-- feature 3 -->
+		  <div class="row media">
+		    <div class="media-left">
+		      <a href="#">
+		        <img class="media-object" src="img/pen85-black.png" alt="Rovie On iPhone">
+		      </a>
+		    </div>
+		    <div class="media-body">
+		      <h4 class="media-heading">Media heading</h4>
+		  	</div>
+		  </div>
+
+			<!-- feature 4 -->
+		  <div class="row media">
+		    <div class="media-left">
+		      <a href="#">
+		        <img class="media-object" src="img/earth-logo.svg" alt="Rovie On iPhone">
+		      </a>
+		    </div>
+		    <div class="media-body">
+		      <h4 class="media-heading">Media heading</h4>
+		  	</div>
+		  </div>
+
     </section>
 
     <section id="contact">
-      <h1>Projects</h1>
+      <h1>Contact</h1>
     </section>
   </div>
 

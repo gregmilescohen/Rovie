@@ -2,6 +2,11 @@ html, body {
   margin: 0;
   padding: 0;
 }
+
+.container-fluid {
+  padding: 0;
+}
+
 h1,h2,h3,h4,h5,h6 {
   font-family: "futura-pt",sans-serif;
   font-style: normal;
@@ -82,21 +87,40 @@ header {
 section {
   border-bottom: none;
   text-align: left;
-  padding: 0;
+  padding: 15px;
   height: none;
   width: 100%;
 }
 
+#about {
+  text-align: center;
+}
+
+#download-icons img {
+  margin: auto;
+  text-align: center;
+  width: 150px;
+  padding: 15px;
+}
+
+/*FEATURES SECTION*/
+
+#features {
+  margin: 0;
+  width: 100%;
+  background-color: #875ea7;
+}
+
+#features .media {
+  padding: 25px;
+}
+
+#features img {
+  width: 50px;
+}
 
 
-
-
-
-@media screen and (max-width: 640px) {
-
-  .nav-collapse a:last-child {
-    padding-bottom: 8px;
-  }
+@media screen and (max-width: 750px) {
 
   .nav-toggle:before {
     color: #875ea7;
