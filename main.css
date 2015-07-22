@@ -7,35 +7,51 @@ html, body {
   padding: 0;
 }
 
+strong {
+  color: #875ea7;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 700;
+}
+
 h1,h2,h3,h4,h5,h6 {
-  font-family: "futura-pt",sans-serif;
+  font-family: 'Fira Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
   letter-spacing: 1px;
 }
 h1 {
-  color: #875ea7;
-  font-weight: 500;
+  color: #000;
+  font-weight: 700;
   font-size: 20px;
+}
+h2 {
+  color: #875ea7;
+  font-family: 'Fira Sans', sans-serif;
+  font-style: italic;
+  font-weight:700;
+  letter-spacing: 2px;
 }
 h3 {
   font-size: 18px;
 }
 p {
-  font-family: "futura-pt",sans-serif;
+  font-family: 'Fira Sans', sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 16px;
+  margin: 0;
+  width: 100%;
+  padding: 0 15px;
 }
 a {
   text-decoration: none;
-  font-family: "futura-pt",sans-serif;
+  font-family: 'Fira Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
 }
 header a {
   color: #000;
-  font-family: "futura-pt",sans-serif;
+  font-family: 'Fira Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -47,6 +63,7 @@ header {
 
 .nav-collapse a:active, .nav-collapse .active a {
   background: #875ea7;
+  text-decoration: none;
 }
 
 .logo {
@@ -66,9 +83,19 @@ header {
   padding-top: 22px;
 }
 
+.nav-collapse a:hover {
+  text-decoration: none;
+  opacity: 0.5;
+  transition: all .3s;
+}
+
 .nav-collapse .active a {
   color: #fff;
   height: 65px;
+}
+
+.nav-collapse .active a:hover {
+  opacity: 1;
 }
 
 .nav-toggle:before {
@@ -90,6 +117,16 @@ section {
   padding: 15px;
   height: none;
   width: 100%;
+}
+#description-img {
+  background: url("img/hiker-white.jpg") bottom center;
+  background-size: cover;
+  width: 100%;
+  text-align: center;
+  padding: 50px;
+}
+#description p {
+  padding-bottom: 3px;
 }
 
 #about {
@@ -117,8 +154,28 @@ section {
 
 #features img {
   width: 50px;
+  padding-bottom: 14px;
 }
 
+.media-body h4, .media-body p {
+  padding-left: 15px;
+}
+
+.media-body h4 {
+  color: #fff;
+}
+
+.media-body p {
+  color: #ddd;
+}
+
+/*GET ROVIE*/
+
+#get-rovie {
+  background: url("img/get-rovie.png") center;
+  background-size: cover;
+  height: 500px;
+}
 
 @media screen and (max-width: 750px) {
 
