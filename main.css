@@ -1,0 +1,62 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #000;
+}
+header {
+  background: #fff;
+}
+
+.nav-collapse a:active, .nav-collapse .active a {
+  background: #875ea7;
+}
+
+.logo {
+  color: #000;
+  padding: 0 20px 10px 10px;
+}
+
+#main-logo {
+  width: 130px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.nav-collapse a {
+  color: #000;
+  background: none;
+  padding-top: 22px;
+}
+
+.nav-collapse .active a {
+  color: #fff;
+  height: 65px;
+}
+
+.nav-toggle:before {
+  color: #000;
+}
+
+@media screen and (max-width: 640px) {
+
+  .nav-collapse a:last-child {
+    padding-bottom: 8px;
+  }
+
+  .nav-toggle:before {
+    color: #875ea7;
+    content: url(img/hamburger.svg);
+    width: 40px;
+    padding-top: 9px;
+  }
+
+  .nav-toggle.active:before {
+    content: url(img/close.svg);
+    width: 28px;
+    padding-top: 15px;
+    margin-left: 6px;
+  }
+}
