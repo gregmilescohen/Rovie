@@ -75,6 +75,7 @@ header {
   width: 130px;
   padding-top: 10px;
   padding-left: 10px;
+  margin-left: 15px;
 }
 
 .nav-collapse a {
@@ -105,6 +106,7 @@ header {
 #header-img {
   background: url("img/phone-beach.jpg");
   background-size: cover;
+  background-position: center;
   width: 100%;
   height: 300px;
 }
@@ -158,6 +160,10 @@ section {
 #features img {
   width: 50px;
   padding-bottom: 14px;
+}
+
+.media {
+  margin-top: 0;
 }
 
 .media-body h4, .media-body p {
@@ -263,7 +269,7 @@ section #last-icons {
 
   .media {
     display: inline-block;
-    width: 50%;
+    /*width: 45%;*/
   }
 
   #features {
@@ -292,6 +298,12 @@ section #last-icons {
   #features {
     padding: 50px 100px;
   }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+
 }
 
 @media screen and (min-width: 1300px) {
