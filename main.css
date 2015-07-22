@@ -3,8 +3,11 @@ html, body {
   padding: 0;
 }
 
-a {
+header a {
   color: #000;
+  font-family: "futura-pt",sans-serif;
+  font-style: normal;
+  font-weight: 400;
 }
 header {
   background: #fff;
