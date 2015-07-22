@@ -43,7 +43,7 @@ p {
   width: 100%;
   padding: 0 15px;
 }
-a {
+a, li{
   text-decoration: none;
   font-family: 'Fira Sans', sans-serif;
   font-style: normal;
@@ -185,10 +185,50 @@ section #last-icons {
   text-align: center;
 }
 
-/*ENDORSEMENTS*/
-
-#endorsements {
+/*CONTACT SECTION*/
+#contact {
+  background-color: #eee;
 }
+#contact h4 {
+  color: #875ea7;
+}
+
+#contact ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+#contact ul a, #contact li {
+  text-decoration: none;
+  color: #777;
+}
+
+#contact ul a:hover {
+  text-decoration: underline;
+}
+
+#disclaimer {
+  text-align: center;
+  padding: 20px;
+  font-size: 12px;
+}
+
+#disclaimer a {
+  text-decoration: none;
+  color: #777;
+}
+
+#disclaimer a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 750px) {
 
@@ -205,4 +245,63 @@ section #last-icons {
     padding-top: 15px;
     margin-left: 6px;
   }
+}
+
+@media screen and (min-width: 750px) {
+
+  #header-img{
+    height: 450px;
+  }
+
+}
+
+@media screen and (min-width: 850px) {
+
+  #description p {
+    padding: 50px;
+  }
+
+  .media {
+    display: inline-block;
+    width: 50%;
+  }
+
+  #features {
+    padding: 25px 50px;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+
+  #header-img {
+    height: 520px;
+  }
+
+  #description-img {
+    padding: 100px;
+  }
+
+  #description p {
+    padding: 50px 100px;
+  }
+
+  #get-rovie {
+    height: 400px;
+  }
+
+  #features {
+    padding: 50px 100px;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+
+  #header-img {
+    height: 570px;
+  }
+
+  #description p {
+    padding: 50px 230px;
+  }
+
 }
