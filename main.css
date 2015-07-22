@@ -8,6 +8,14 @@ h1,h2,h3,h4,h5,h6 {
   font-weight: 400;
   letter-spacing: 1px;
 }
+h1 {
+  color: #875ea7;
+  font-weight: 500;
+  font-size: 20px;
+}
+h3 {
+  font-size: 18px;
+}
 p {
   font-family: "futura-pt",sans-serif;
   font-style: normal;
@@ -25,7 +33,7 @@ header a {
   font-family: "futura-pt",sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 18px;
   letter-spacing: 1px;
 }
 header {
@@ -61,6 +69,28 @@ header {
 .nav-toggle:before {
   color: #000;
 }
+
+#header-img {
+  background: url("img/phone-beach.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+}
+
+/*MAIN CONTENT*/
+
+section {
+  border-bottom: none;
+  text-align: left;
+  padding: 0;
+  height: none;
+  width: 100%;
+}
+
+
+
+
+
 
 @media screen and (max-width: 640px) {
 
